@@ -1,38 +1,43 @@
-.App {
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css?family=Rokkitt|Yeon+Sung&display=swap');
+
+body { 
+  margin: 0; 
+  font-family: 'Rokkitt', cursive !important; 
+  font-size: 1.05em !important;
+  overflow-x: hidden;
+  background: linear-gradient(-45deg, aliceblue, white, white, aliceblue);
+  min-height: 100vh;
+}
+.btn{
+  margin: 5px;
+}
+.btn-light{
+  border: 1px solid gray;
+}
+.padded-content{
+  padding: 50px 20px;
+}
+.form-content{
+  padding: 20px 30px;
+  padding-bottom: 10px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  background-color: white;
+}
+.center-content{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.right-content{
+  text-align: right;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.filter-input{
+  width: 200px;
+  margin-bottom: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+th{
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+th:hover {
+  background-color: aliceblue;
 }
